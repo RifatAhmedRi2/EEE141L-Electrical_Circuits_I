@@ -1,0 +1,42 @@
+
+**** 04/14/21 05:03:11 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab 6"  [ C:\Program Files\OrCAD\OrCAD_16.6_Lite\tools\capture\lab 6-pspicefiles\schematic1\lab 6.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Lab 6.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Family\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB 6
+R_R1         N03150 N03460  4Ohm TC=0,0 
+R_R3         N03460 N03150  1Ohm TC=0,0 
+
+**** RESUMING "Lab 6.cir" ****
+.END
+
+ERROR(ORPSIM-15142): Node N03150 is floating
+
+ERROR(ORPSIM-15142): Node N03460 is floating
+

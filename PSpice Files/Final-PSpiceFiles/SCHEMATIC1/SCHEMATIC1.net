@@ -1,0 +1,4 @@
+* source FINAL
+V_Vth         N02458 0 21.99Vdc
+R_Rth         N02458 N02465  9 TC=0,0 
+R_RL         0 N02465  15k TC=0,0 

@@ -1,0 +1,3 @@
+* source LAB 6
+R_R1         N03150 N03460  4Ohm TC=0,0 
+R_R3         N03460 N03150  1Ohm TC=0,0 

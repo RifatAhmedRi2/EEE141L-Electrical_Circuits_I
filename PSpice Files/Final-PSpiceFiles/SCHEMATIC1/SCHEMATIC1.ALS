@@ -1,0 +1,5 @@
+.ALIASES
+V_Vth           Vth(+=N02458 -=0 ) CN @FINAL.SCHEMATIC1(sch_1):INS2387@SOURCE.VDC.Normal(chips)
+R_Rth           Rth(1=N02458 2=N02465 ) CN @FINAL.SCHEMATIC1(sch_1):INS2412@ANALOG.R.Normal(chips)
+R_RL            RL(1=0 2=N02465 ) CN @FINAL.SCHEMATIC1(sch_1):INS2428@ANALOG.R.Normal(chips)
+.ENDALIASES

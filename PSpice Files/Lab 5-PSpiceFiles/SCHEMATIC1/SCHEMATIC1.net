@@ -1,0 +1,6 @@
+* source LAB 5
+V_V1         N00129 0 10Vdc
+V_V2         N00151 0 5Vdc
+R_R1         N00129 N00495  3.3k TC=0,0 
+R_R2         0 N00495  1k TC=0,0 
+R_R3         N00495 N00151  4.7k TC=0,0 

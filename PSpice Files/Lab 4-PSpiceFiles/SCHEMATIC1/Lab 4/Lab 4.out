@@ -1,0 +1,87 @@
+
+**** 03/31/21 13:11:00 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab 4"  [ C:\Program Files\OrCAD\OrCAD_16.6_Lite\tools\capture\Lab 4-PSpiceFiles\SCHEMATIC1\Lab 4.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Lab 4.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Family\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB 4
+V_V1         N00484 0 10Vdc
+R_R1         N01602 N00484  5k TC=0,0 
+R_R2         N01624 N01602  5k TC=0,0 
+R_R3         N01628 N01602  5k TC=0,0 
+R_R4         0 N01624  15k TC=0,0 
+R_R5         0 N01628  15k TC=0,0 
+
+**** RESUMING "Lab 4.cir" ****
+.END
+
+**** 03/31/21 13:11:00 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab 4"  [ C:\Program Files\OrCAD\OrCAD_16.6_Lite\tools\capture\Lab 4-PSpiceFiles\SCHEMATIC1\Lab 4.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00484)   10.0000 (N01602)    6.6667 (N01624)    5.0000 (N01628)    5.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -6.667E-04
+
+    TOTAL POWER DISSIPATION   6.67E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/31/21 13:11:00 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Lab 4"  [ C:\Program Files\OrCAD\OrCAD_16.6_Lite\tools\capture\Lab 4-PSpiceFiles\SCHEMATIC1\Lab 4.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

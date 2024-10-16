@@ -1,0 +1,44 @@
+
+**** 05/17/21 19:10:11 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Final"  [ C:\Program Files\OrCAD\OrCAD_16.6_Lite\tools\capture\Final-PSpiceFiles\SCHEMATIC1\Final.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Final.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Family\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source FINAL
+V_V1         N00181 0 12Vdc
+I_I1         0 N00203 DC 2Adc  
+R_R1         N00181 N00188  6 TC=0,0 
+R_R2         0 N00188  12 TC=0,0 
+R_R3         N00188 N00203  3 TC=0,0 
+R_R4         N00203 N00218  2 TC=0,0 
+
+**** RESUMING Final.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N00218.
+

@@ -1,0 +1,7 @@
+* source LAB 4
+V_V1         N00484 0 10Vdc
+R_R1         N01602 N00484  5k TC=0,0 
+R_R2         N01624 N01602  5k TC=0,0 
+R_R3         N01628 N01602  5k TC=0,0 
+R_R4         0 N01624  15k TC=0,0 
+R_R5         0 N01628  15k TC=0,0 

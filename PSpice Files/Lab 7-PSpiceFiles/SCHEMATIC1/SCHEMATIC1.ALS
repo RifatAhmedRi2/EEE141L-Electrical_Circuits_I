@@ -1,0 +1,5 @@
+.ALIASES
+V_V1            V1(+=N00595 -=0 ) CN @LAB 7.SCHEMATIC1(sch_1):INS529@SOURCE.VPULSE.Normal(chips)
+C_C             C(1=N00621 2=0 ) CN @LAB 7.SCHEMATIC1(sch_1):INS625@ANALOG.C.Normal(chips)
+R_R             R(1=N00595 2=N00621 ) CN @LAB 7.SCHEMATIC1(sch_1):INS573@ANALOG.R.Normal(chips)
+.ENDALIASES

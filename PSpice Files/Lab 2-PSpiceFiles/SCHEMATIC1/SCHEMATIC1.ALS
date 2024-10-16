@@ -1,0 +1,9 @@
+.ALIASES
+R_R2            R2(1=0 2=N04264 ) CN @LAB 2.SCHEMATIC1(sch_1):INS4328@ANALOG.R.Normal(chips)
+R_R6            R6(1=0 2=N04268 ) CN @LAB 2.SCHEMATIC1(sch_1):INS4364@ANALOG.R.Normal(chips)
+R_R1            R1(1=N04256 2=N04264 ) CN @LAB 2.SCHEMATIC1(sch_1):INS4308@ANALOG.R.Normal(chips)
+V_E             E(+=N04256 -=0 ) CN @LAB 2.SCHEMATIC1(sch_1):INS4222@SOURCE.VDC.Normal(chips)
+R_R4            R4(1=0 2=N04286 ) CN @LAB 2.SCHEMATIC1(sch_1):INS4348@ANALOG.R.Normal(chips)
+R_R3            R3(1=N04264 2=N04286 ) CN @LAB 2.SCHEMATIC1(sch_1):INS4380@ANALOG.R.Normal(chips)
+R_R5            R5(1=N04286 2=N04268 ) CN @LAB 2.SCHEMATIC1(sch_1):INS4400@ANALOG.R.Normal(chips)
+.ENDALIASES
